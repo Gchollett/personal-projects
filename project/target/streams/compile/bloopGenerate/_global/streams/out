@@ -1,4 +1,4 @@
-[debug] [personal-projects-build] Classpath dependencies List()
-[debug] [personal-projects-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'personal-projects-build' to 'C:\Users\garre\Documents\CS\personal-projects\project\.bloop\personal-projects-build.json'
-[success] Generated .bloop\personal-projects-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[personal-projects-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[personal-projects-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'personal-projects-build' to 'C:\Users\garre\Documents\CS\personal-projects\project\.bloop\personal-projects-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\personal-projects-build.json[0m
