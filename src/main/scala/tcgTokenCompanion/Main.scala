@@ -6,6 +6,7 @@ import scalafx.scene.Scene
 import scalafx.scene.layout._
 import scalafx.scene.input.MouseEvent
 import scalafx.scene.image.Image
+import scalafx.scene.control.ComboBox
 
 object Main extends JFXApp {
     val field = BattleField()
@@ -14,12 +15,11 @@ object Main extends JFXApp {
     stage = new JFXApp.PrimaryStage {
         title = "MTG Token Companion"
         scene = new Scene(600, 700) {
-            //while(true){
-                val hbox = new HBox
+                val vbox = new VBox
                 val grid = createBoardState(field)
+                val list = new ComboBox(createList())
                 content = grid
                 widthOfStage = width.value.toInt
-            //}
         }
     }
 
@@ -47,4 +47,6 @@ object Main extends JFXApp {
     }
 
     def tapCard(tkn:Token) = if(tkn.tapState) tkn.image.setRotate(90) else tkn.image.setRotate(0)
+
+    def createList() = List("Angle","Dog","Shrine")
 }

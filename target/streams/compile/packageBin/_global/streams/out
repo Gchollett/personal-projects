@@ -1,1 +1,23 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: C:\Users\garre\Documents\CS\personal-projects\target\scala-2.13\personal-hell_2.13-0.1.0-SNAPSHOT.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\garre\Documents\CS\personal-projects\target\scala-2.13\personal-hell_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tcgTokenCompanion[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\garre\Documents\CS\personal-projects\target\scala-2.13\classes\tcgTokenCompanion[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tcgTokenCompanion\BattleField$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\garre\Documents\CS\personal-projects\target\scala-2.13\classes\tcgTokenCompanion\BattleField$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tcgTokenCompanion\BattleField.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\garre\Documents\CS\personal-projects\target\scala-2.13\classes\tcgTokenCompanion\BattleField.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tcgTokenCompanion\Main$$anon$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\garre\Documents\CS\personal-projects\target\scala-2.13\classes\tcgTokenCompanion\Main$$anon$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tcgTokenCompanion\Main$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\garre\Documents\CS\personal-projects\target\scala-2.13\classes\tcgTokenCompanion\Main$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tcgTokenCompanion\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\garre\Documents\CS\personal-projects\target\scala-2.13\classes\tcgTokenCompanion\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tcgTokenCompanion\Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\garre\Documents\CS\personal-projects\target\scala-2.13\classes\tcgTokenCompanion\Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tcgTokenCompanion\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\garre\Documents\CS\personal-projects\target\scala-2.13\classes\tcgTokenCompanion\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tcgTokenCompanion\Token$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\garre\Documents\CS\personal-projects\target\scala-2.13\classes\tcgTokenCompanion\Token$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tcgTokenCompanion\Token.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\garre\Documents\CS\personal-projects\target\scala-2.13\classes\tcgTokenCompanion\Token.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
