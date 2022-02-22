@@ -15,7 +15,20 @@
             
         ],
         "classpath": [
-            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar"
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar",
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.13\\16.0.0-R24\\scalafx_2.13-16.0.0-R24.jar",
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\11\\javafx-base-11-win.jar",
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\11\\javafx-controls-11-win.jar",
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-fxml\\11\\javafx-fxml-11-win.jar",
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\11\\javafx-graphics-11-win.jar",
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\11\\javafx-media-11-win.jar",
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-swing\\11\\javafx-swing-11-win.jar",
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-web\\11\\javafx-web-11-win.jar",
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.6\\scala-reflect-2.13.6.jar",
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\11\\javafx-graphics-11.jar",
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\11\\javafx-controls-11.jar",
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\11\\javafx-base-11.jar",
+            "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\11\\javafx-media-11.jar"
         ],
         "out": "C:\\Users\\garre\\Documents\\CS\\personal-projects\\.bloop\\root",
         "classesDir": "C:\\Users\\garre\\Documents\\CS\\personal-projects\\.bloop\\root\\scala-2.13\\classes",
@@ -123,6 +136,128 @@
                             "name": "scala-library",
                             "classifier": "sources",
                             "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalafx",
+                    "name": "scalafx_2.13",
+                    "version": "16.0.0-R24",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalafx_2.13",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.13\\16.0.0-R24\\scalafx_2.13-16.0.0-R24.jar"
+                        },
+                        {
+                            "name": "scalafx_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.13\\16.0.0-R24\\scalafx_2.13-16.0.0-R24-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.6\\scala-reflect-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.6\\scala-reflect-2.13.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-graphics",
+                    "version": "11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-graphics",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\11\\javafx-graphics-11.jar"
+                        },
+                        {
+                            "name": "javafx-graphics",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\11\\javafx-graphics-11-sources.jar"
+                        },
+                        {
+                            "name": "javafx-graphics",
+                            "classifier": "win",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\11\\javafx-graphics-11-win.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-controls",
+                    "version": "11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-controls",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\11\\javafx-controls-11.jar"
+                        },
+                        {
+                            "name": "javafx-controls",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\11\\javafx-controls-11-sources.jar"
+                        },
+                        {
+                            "name": "javafx-controls",
+                            "classifier": "win",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\11\\javafx-controls-11-win.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-base",
+                    "version": "11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-base",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\11\\javafx-base-11.jar"
+                        },
+                        {
+                            "name": "javafx-base",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\11\\javafx-base-11-sources.jar"
+                        },
+                        {
+                            "name": "javafx-base",
+                            "classifier": "win",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\11\\javafx-base-11-win.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-media",
+                    "version": "11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-media",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\11\\javafx-media-11.jar"
+                        },
+                        {
+                            "name": "javafx-media",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\11\\javafx-media-11-sources.jar"
+                        },
+                        {
+                            "name": "javafx-media",
+                            "classifier": "win",
+                            "path": "C:\\Users\\garre\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\11\\javafx-media-11-win.jar"
                         }
                     ]
                 },

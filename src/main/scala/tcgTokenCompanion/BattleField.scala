@@ -1,30 +1,45 @@
 package tcgTokenCompanion
 
 class BattleField(){
-    private var battleField:List[Token] = Nil
+    private var bF:List[Token] = Nil
 
     def add(tkn:Token):Unit = {
-        val location = battleField.indexOf(tkn)
+        val location = bF.indexOf(tkn)
         if( location != -1){
-            battleField(location).add()
+            bF(location).add()
         }
-        else this.battleField :+= tkn
+        else this.bF :+= tkn
     }
     def remove(tkn:Token):Unit = {
-        val location = battleField.indexOf(tkn)
+        val location = bF.indexOf(tkn)
         var temp:List[Token] = Nil
         if(location != -1){
-            if(battleField(location).number > 1){
-                battleField(location).remove()
+            if(bF(location).number > 1){
+                bF(location).remove()
             }
             else {
-                for(card <- this.battleField){
+                for(card <- this.bF){
                     if(card != tkn) temp :+= card
                 }
             }
         }
-        this.battleField = temp
+        this.bF = temp
     }
+
+    def tapAll(){
+        for(x <- bF){
+            x.tapState = true
+        }
+    }
+
+    def untapAll(){
+        for(x <- bF){
+            x.tapState = false
+        }
+    }
+
+    //getters
+    def battleField():List[Token] = bF
 }
 
 object BattleField {
