@@ -10,5 +10,5 @@ class Token(val name:String, var types:List[String], var power:Char, var touphne
     def tap():Unit = this.tapState == !tapState
 }
 object Token{
-    
+    def apply(name:String, types:List[String], power:Char, touphness:Char, colors:String, image:ImageView) = new Token(name,types,power,touphness,colors,image)
 }
